@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>You're on the Waitlist | HashNexus</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Tailwind -->
+    <link
+        rel="stylesheet"
+        href="./dist/output.css"
+    >
+</head>
+
+
+<body class="min-h-screen bg-black">
+
+    <main
+        class="relative flex min-h-screen
+               items-center justify-center
+               overflow-hidden
+               bg-black
+               px-4 py-8"
+    >
+
+        <!-- BACKGROUND IMAGE -->
+        <div
+            class="absolute inset-0
+                   bg-cover
+                   bg-center
+                   bg-no-repeat"
+            style="
+                background-image:
+                url('./assets/photo_2026-08-13_23-23-55.jpg');
+            "
+        ></div>
+
+
+        <!-- SUBTLE DARK OVERLAY -->
+        <div
+            class="absolute inset-0
+                   bg-black/35"
+        ></div>
+
+
+        <!-- CONTENT -->
+        <div
+            class="relative z-10
+                   flex w-full
+                   items-center
+                   justify-center"
+        >
+
+
+            <!-- SUCCESS CARD -->
+            <section
+                class="w-full max-w-lg
+                       rounded-2xl
+                       border border-lime-300/40
+                       bg-gradient-to-br
+                       from-black/80
+                       via-black/70
+                       to-lime-950/30
+                       p-7
+                       text-center
+                       shadow-[0_0_40px_rgba(163,230,53,0.12)]
+                       backdrop-blur-xl
+                       sm:p-8"
+            >
+
+
+                <!-- SUCCESS ICON -->
+                <div class="mb-7 flex justify-center">
+
+                    <div
+                        class="flex h-16 w-16
+                               items-center justify-center
+                               rounded-full
+                               border
+                               border-lime-300/70
+                               bg-lime-400/10
+                               text-lime-300
+                               shadow-[0_0_30px_rgba(163,230,53,0.25)]"
+                    >
+
+                        <svg
+                            class="h-8 w-8"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2.5"
+                            viewBox="0 0 24 24"
+                        >
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m5 12 4 4L19 6"
+                            />
+
+                        </svg>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOGO -->
+                <div class="mb-6">
+
+                    <p
+                        class="text-sm
+                               font-semibold
+                               tracking-wider
+                               text-lime-300/80"
+                    >
+                        HASHNEXUS
+                    </p>
+
+                </div>
+
+
+                <!-- HEADING -->
+                <h1
+                    class="whitespace-nowrap
+                           text-3xl
+                           font-bold
+                           tracking-tight
+                           text-lime-300
+                           sm:text-4xl"
+                >
+                    You're all set!
+                </h1>
+
+
+                <!-- DESCRIPTION -->
+                <p
+                    class="mx-auto mt-5
+                           max-w-md
+                           text-base
+                           leading-relaxed
+                           text-lime-100/75"
+                >
+                    You've successfully joined the
+                    HashNexus waitlist. We'll let you know
+                    when it's time.
+                </p>
+
+
+                <!-- SUCCESS MESSAGE -->
+                <div
+                    class="mx-auto mt-7
+                           max-w-md
+                           rounded-xl
+                           border
+                           border-lime-300/20
+                           bg-lime-300/5
+                           px-5 py-4"
+                >
+
+                    <p
+                        class="text-sm
+                               leading-relaxed
+                               text-lime-200/70"
+                    >
+                        Keep an eye on your inbox for
+                        updates and early access.
+                    </p>
+
+                </div>
+
+
+                <!-- BACK BUTTON -->
+                <a
+                    href="./index.html"
+                    class="mt-7
+                           inline-flex
+                           items-center
+                           justify-center
+                           gap-3
+                           rounded-xl
+                           border
+                           border-lime-300/30
+                           bg-white/5
+                           px-6 py-3
+                           text-sm
+                           font-semibold
+                           text-lime-200
+                           transition
+                           duration-300
+                           hover:border-lime-300/60
+                           hover:bg-lime-300/10"
+                >
+
+                    <svg
+                        class="h-4 w-4"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                    >
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19 12H5"
+                        />
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m12 19-7-7 7-7"
+                        />
+
+                    </svg>
+
+                    Back to waitlist
+
+                </a>
+
+
+                <!-- FOOTER -->
+                <p
+                    class="mt-7
+                           text-xs
+                           text-lime-100/40"
+                >
+                    Thank you for joining HashNexus.
+                </p>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
